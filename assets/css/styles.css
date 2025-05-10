@@ -48,3 +48,12 @@ h1{
     text-decoration: none;
     color: inherit;
 }
+
+.back-button{
+    display: inline-block;
+    margin-top: 10px;
+    color: #3498db;
+    text-decoration: none;
+    font-weight: bold;
+}
+
