@@ -9,7 +9,7 @@
     <div class="container">
         <header>
             <h1>Recommended Equipments/Machine</h1>
-            <a href="index.php" class="back-button"> <=Back to Muscle Groups</a>
+            <a href="index.php" class="back-button"> <=Back to Muscle group</a>
         </header>
 
         <div class="equipmentList">
