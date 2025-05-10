@@ -33,7 +33,7 @@
                 }
                 echo '</ul>';
             } else {
-                echo '<p>Invalid muscle selection</p>';
+                echo '<p>Invalid Muscle Selection</p>';
             }
             ?>
         </div>
