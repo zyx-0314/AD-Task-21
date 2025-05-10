@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="assets/css/styles.css">
     <title>Document</title>
 </head>
 <body>
@@ -14,5 +15,6 @@
     <a href = "equipment.php?muscle = Back">Back</a>
     <a href = "equipment.php?muscle = Legs">Legs</a>
 </div>
+
 </body>
 </html>
