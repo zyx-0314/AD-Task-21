@@ -1,20 +1,19 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Equipments/Machines Recommendations</title>
+    <title>Equipment Recommendations</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="container">
         <header>
-            <h1>Recommended Equipments/Machine</h1>
-            <a href="index.php" class="back-button"> <=Back to Muscle group</a>
+            <h1>Recommended Equipment</h1>
+            <a href="index.php" class="back-button">← Back to Muscle Groups</a>
         </header>
 
-        <div class="equipmentList">
+        <div class="equipment-list">
             <?php
-            $muscle =$_GET['muscle'];
+            $muscle = $_GET['muscle'];
 
             $equipment = [
                 "chest" => ["Bench Press", "Dumbbells", "Chest Press Machine", "Pec Deck"],
@@ -25,7 +24,7 @@
                 "abs" => ["Ab Bench", "Cable Machine", "Roman Chair", "Hanging Leg Raise"]
             ];
 
-            if(array_key_exists($muscle, $equipment)){
+            if (array_key_exists($muscle, $equipment)) {
                 echo '<h2>'.ucfirst($muscle).' Equipment</h2>';
                 echo '<ul>';
                 foreach ($equipment[$muscle] as $item) {
@@ -33,7 +32,7 @@
                 }
                 echo '</ul>';
             } else {
-                echo '<p>Invalid Muscle Selection</p>';
+                echo '<p>Invalid muscle selection</p>';
             }
             ?>
         </div>
