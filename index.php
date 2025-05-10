@@ -2,7 +2,7 @@
 <html>
 <head>
     <title>Gym Equipment Guide</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 <body>
     <div class="container">
