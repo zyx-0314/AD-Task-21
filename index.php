@@ -27,7 +27,6 @@
             foreach ($muscles as $name => $value) {
                 echo '<div class="muscle-card">';
                 echo '<a href="equipment.php?muscle='.$value.'">';
-                echo '<div class="muscle-icon">'.strtoupper(substr($name, 0, 1)).'</div>';
                 echo '<h3>'.$name.'</h3>';
                 echo '</a>';
                 echo '</div>';
