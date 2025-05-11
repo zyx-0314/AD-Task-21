@@ -18,16 +18,16 @@
             if (empty($muscle)) {
                 echo '<p>No muscle group selected. Please go back and select one.</p>';
                 echo '<p><a href="index.php">Back to Muscle Groups</a></p>';
-                exit; // Stop further execution
+                exit;
             }
 
             $equipment = [
-                "chest" => ["Bench Press", "Dumbbells", "Chest Press Machine", "Pec Deck"],
-                "back" => ["Pull-up Bar", "Lat Pulldown", "Seated Row", "Deadlift Platform"],
-                "legs" => ["Squat Rack", "Leg Press", "Leg Curl Machine", "Calf Raise"],
-                "arms" => ["Preacher Curl Bench", "Triceps Rope", "EZ Curl Bar", "Dip Station"],
-                "shoulders" => ["Shoulder Press", "Lateral Raise", "Face Pull", "Shrug Bar"],
-                "abs" => ["Ab Bench", "Cable Machine", "Roman Chair", "Hanging Leg Raise"]
+                "chest" => ["Dumbbells", "Chest Press Machine", "Pec Deck"],
+                "back" => ["Pull-up Bar", "Lat Pulldown", "Seated Row"],
+                "legs" => ["Squat Rack", "Leg Press", "Leg Curl Machine"],
+                "arms" => ["Preacher Curl Bench", "Triceps Rope", "EZ Curl Bar"],
+                "shoulders" => ["Shoulder Press", "Lateral Raise", "Face Pull"],
+                "core" => ["Ab Bench", "Cable Machine",  "Hanging Leg Raise"]
             ];
 
             if (array_key_exists($muscle, $equipment)) {
