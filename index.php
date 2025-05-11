@@ -2,7 +2,7 @@
 <html>
 <head>
     <title>Gym Equipment Guide</title>
-    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="../../assets/css/styles.css">
 </head>
 <body>
     <div class="container">
@@ -13,17 +13,15 @@
 
         <div class="muscle-grid">
             <?php
-            // Declarations - muscle groups
             $muscles = [
                 "Chest" => "chest",
                 "Back" => "back",
                 "Legs" => "legs",
-                "Arms" => "arms",
+                "Core" => "core",
                 "Shoulders" => "shoulders",
                 "Abs" => "abs"
             ];
 
-            // Looping - display muscle options
             foreach ($muscles as $name => $value) {
                 echo '<div class="muscle-card">';
                 echo '<a href="equipment.php?muscle='.$value.'">';
