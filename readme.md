@@ -65,6 +65,7 @@ This program shows the basic use of looping, declaration and conditional stateme
 ### Key Components
 
 Has a button on the muscle group that goes to the next page and also go back to the landing page
+Has a hover effects on the boxes
 
 ### Technology
 
