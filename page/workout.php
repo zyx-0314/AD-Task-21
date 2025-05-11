@@ -73,10 +73,9 @@
             $groupName = "Core";
         }
         ?>
-        
+
         <h1>Your <?php echo $groupName; ?> Workout</h1>
         <p>Here is the workout for <?php echo $groupName; ?>:</p>
-        
         <div class="workout-list">
             <?php
             foreach ($workout as $exercise => $sets) {
