@@ -2,7 +2,7 @@
 <html>
 <head>
     <title>Equipment Recommendations</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 <body>
     <div class="container">
@@ -13,7 +13,13 @@
 
         <div class="equipment-list">
             <?php
-            $muscle = $_GET['muscle'];
+            $muscle = isset($_GET['muscle']) ? $_GET['muscle'] : '';
+
+            if (empty($muscle)) {
+                echo '<p>No muscle group selected. Please go back and select one.</p>';
+                echo '<p><a href="index.php">Back to Muscle Groups</a></p>';
+                exit; // Stop further execution
+            }
 
             $equipment = [
                 "chest" => ["Bench Press", "Dumbbells", "Chest Press Machine", "Pec Deck"],
