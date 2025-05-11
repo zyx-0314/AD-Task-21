@@ -9,10 +9,8 @@
 <body>
     <div class="container">
         <?php
-        // Declaration of variables from form input
         $selectedMuscleGroup = isset($_POST['muscle_group']) ? $_POST['muscle_group'] : 'chest';
-        
-        // Declaration of workout arrays
+
         $chestWorkout = array(
             "Bench Press" => "4 sets of 8-12 reps",
             "Incline Dumbbell Press" => "3 sets of 10-12 reps",
@@ -55,7 +53,6 @@
             "Crunches" => "3 sets of 15-20 reps"
         );
         
-        // Conditional statements to select the right workout
         if ($selectedMuscleGroup == "chest") {
             $workout = $chestWorkout;
             $groupName = "Chest";
@@ -78,11 +75,10 @@
         ?>
         
         <h1>Your <?php echo $groupName; ?> Workout</h1>
-        <p>Here's your customized workout plan for <?php echo $groupName; ?>:</p>
+        <p>Here is the workout for <?php echo $groupName; ?>:</p>
         
         <div class="workout-list">
             <?php
-            // Looping through the selected workout array
             foreach ($workout as $exercise => $sets) {
                 echo '<div class="exercise">';
                 echo '<span class="exercise-name">' . $exercise . '</span>';
