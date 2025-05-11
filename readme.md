@@ -60,11 +60,11 @@
 
 Description of the project in details.
 
---------------------------------------------------------------------------
+This program shows the basic use of looping, declaration and conditional statements
 
 ### Key Components
 
----------------------------------------------------------------------------
+Has a button on the muscle group that goes to the next page and also go back to the landing page
 
 ### Technology
 
@@ -124,9 +124,6 @@ AD-ProjectName
 
 <!-- TODO: Add References -->
 
-| Title        | Purpose                                                                       | Link          |
-| ------------ | ----------------------------------------------------------------------------- | ------------- |
-| Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
-| Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
-| Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
-| Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
+| Title                 | Purpose                                                                       | Link                                          |
+| --------------------- | ----------------------------------------------------------------------------- | --------------------------------------------- |
+| Conditional Statments | It helps me how to use the conditional statements                             | https://www.w3schools.com/php/php_if_else.asp |
